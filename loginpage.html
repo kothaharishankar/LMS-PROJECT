@@ -1,0 +1,189 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        }
+
+        nav a img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+            background: linear-gradient(135deg, #e7f3ff, #ffffff);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Login Page -->
+        <div id="loginPage">
+            <h1>Student Portal Login</h1>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginError" class="error"></p>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+
+        <!-- Dashboard -->
+        <div id="dashboard" style="display: none;">
+            <h1>Welcome, <span id="studentName"></span>!</h1>
+
+            <nav>
+                <a href="profile.html">
+                    <img src="images/profile-icon.jpg" alt="Profile">
+                    Profile
+                </a>
+                <a href="students.html">
+                    <img src="images/attendance-jpg.jpg" alt="Attendance">
+                    Attendance
+                </a>
+                <a href="marks.html">
+                    <img src="images/marks-icon.jpg" alt="Marks">
+                    Marks
+                </a>
+                <a href="live_class.html">
+                    <img src="images/live-class-icon.jpg" alt="Live Class">
+                    Live Class
+                </a>
+                <a href="#" onclick="logout(); return false;">
+                    <img src="images/logout-icon.jpg" alt="Logout">
+                    Logout
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <script src="loginpage.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        }
+
+        nav a img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+            background: linear-gradient(135deg, #e7f3ff, #ffffff);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Login Page -->
+        <div id="loginPage">
+            <h1>Student Portal Login</h1>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginError" class="error"></p>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+
+        <!-- Dashboard -->
+        <div id="dashboard" style="display: none;">
+            <h1>Welcome, <span id="studentName"></span>!</h1>
+
+            <nav>
+                <a href="profile.html">
+                    <img src="images/profile-icon.jpg" alt="Profile">
+                    Profile
+                </a>
+                <a href="students.html">
+                    <img src="images/attendance-jpg.jpg" alt="Attendance">
+                    Attendance
+                </a>
+                <a href="marks.html">
+                    <img src="images/marks-icon.jpg" alt="Marks">
+                    Marks
+                </a>
+                <a href="live_class.html">
+                    <img src="images/live-class-icon.jpg" alt="Live Class">
+                    Live Class
+                </a>
+                <a href="#" onclick="logout(); return false;">
+                    <img src="images/logout-icon.jpg" alt="Logout">
+                    Logout
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <script src="loginpage.js"></script>
+</body>
+</html>
+>>>>>>> fbf505eebd7ec6f075b09160a426170503275fb8

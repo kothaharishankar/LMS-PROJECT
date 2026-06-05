@@ -1,0 +1,95 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Portal - Attendance System</title>
+    <link rel="stylesheet" href="teachers.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <div id="loginSection">
+            <h1>Teacher Login</h1>
+            <form id="loginForm" onsubmit="return teacherLogin()">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Attendance Section (Hidden Initially) -->
+        <div id="attendanceSection" style="display: none;">
+            <h1>Mark Attendance</h1>
+            <form id="attendanceForm" onsubmit="return markAttendance()">
+                <div class="form-group">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" placeholder="Enter student name" required>
+                </div>
+                <button type="submit">Mark Present</button>
+            </form>
+            <h2>Attendance List</h2>
+            <ul id="attendanceList">
+                <!-- Attendance records will be added dynamically -->
+            </ul>
+            <button onclick="clearAttendance()">Reset Attendance</button>
+        </div>
+    </div>
+    <script src="teachers.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Portal - Attendance System</title>
+    <link rel="stylesheet" href="teachers.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <div id="loginSection">
+            <h1>Teacher Login</h1>
+            <form id="loginForm" onsubmit="return teacherLogin()">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Attendance Section (Hidden Initially) -->
+        <div id="attendanceSection" style="display: none;">
+            <h1>Mark Attendance</h1>
+            <form id="attendanceForm" onsubmit="return markAttendance()">
+                <div class="form-group">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" placeholder="Enter student name" required>
+                </div>
+                <button type="submit">Mark Present</button>
+            </form>
+            <h2>Attendance List</h2>
+            <ul id="attendanceList">
+                <!-- Attendance records will be added dynamically -->
+            </ul>
+            <button onclick="clearAttendance()">Reset Attendance</button>
+        </div>
+    </div>
+    <script src="teachers.js"></script>
+</body>
+</html>
+>>>>>>> fbf505eebd7ec6f075b09160a426170503275fb8
